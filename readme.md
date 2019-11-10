@@ -7,7 +7,17 @@
 
 #### 使用方法
 
-​		在当前文件夹终端输入`go run main.go`即开始运行
+​	终端输入
+
+```
+go get -u github.com/urfave/negroni
+go get -u github.com/gorilla/mux
+go get -u github.com/unrolled/render
+go get -u github.com/spf13/pflag
+go run main.go
+```
+
+就可以安装依赖并运行`cloudgo-io`了
 
 #### 运行效果
 
